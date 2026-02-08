@@ -33,8 +33,6 @@ TestResults/
 ## IDE
 .idea/
 *.sln.iml
-launchSettings.json
-
 ## OS
 .DS_Store
 Thumbs.db
