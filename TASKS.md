@@ -31,7 +31,7 @@ This task list tracks all work needed to implement the project described in SPEC
 ## Phase 4: Program.cs Configuration
 
 - [x] 16. Ensure `Program.cs` uses the minimal hosting model, registers controllers (`AddControllers`), maps controllers (`MapControllers`), and configures Swagger/OpenAPI with Swashbuckle (`AddEndpointsApiExplorer`, `AddSwaggerGen`, `UseSwagger`, `UseSwaggerUI`). Add the `Swashbuckle.AspNetCore` NuGet package.
-- [ ] 17. Create `src/BookstoreApi/Properties/launchSettings.json` configuring the API to listen on an appropriate port for local development. Remove `launchSettings.json` from `.gitignore` or ensure the file is tracked (SPEC expects it committed).
+- [x] 17. Create `src/BookstoreApi/Properties/launchSettings.json` configuring the API to listen on an appropriate port for local development. Remove `launchSettings.json` from `.gitignore` or ensure the file is tracked (SPEC expects it committed).
 - [ ] 18. Verify the API starts with `dotnet run` and responds to a request (e.g., `GET /api/books` returns `[]`).
 
 ## Phase 5: Unit Tests — Controller
