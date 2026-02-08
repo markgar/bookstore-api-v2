@@ -6,11 +6,11 @@ This task list tracks all work needed to implement the project described in SPEC
 
 ## Phase 1: Project Scaffolding
 
-- [ ] 1. Create the solution file `BookstoreApi.sln` at the repository root.
-- [ ] 2. Create the API project `src/BookstoreApi/BookstoreApi.csproj` targeting .NET 8, using the ASP.NET Core Web API template with controllers (not minimal APIs). Remove any default scaffolding (e.g., `WeatherForecast` controller/model) that does not belong to this project.
-- [ ] 3. Create the test project `tests/BookstoreApi.Tests/BookstoreApi.Tests.csproj` targeting .NET 8, using xUnit. Add package references for `FluentAssertions`, `Microsoft.AspNetCore.Mvc.Testing`, and a project reference to `src/BookstoreApi`.
-- [ ] 4. Add both projects to the solution file so `dotnet build` and `dotnet test` work from the repo root.
-- [ ] 5. Verify the solution builds with zero errors: `dotnet build --configuration Release`.
+- [x] 1. Create the solution file `BookstoreApi.sln` at the repository root.
+- [x] 2. Create the API project `src/BookstoreApi/BookstoreApi.csproj` targeting .NET 8, using the ASP.NET Core Web API template with controllers (not minimal APIs). Remove any default scaffolding (e.g., `WeatherForecast` controller/model) that does not belong to this project.
+- [x] 3. Create the test project `tests/BookstoreApi.Tests/BookstoreApi.Tests.csproj` targeting .NET 8, using xUnit. Add package references for `FluentAssertions`, `Microsoft.AspNetCore.Mvc.Testing`, and a project reference to `src/BookstoreApi`.
+- [x] 4. Add both projects to the solution file so `dotnet build` and `dotnet test` work from the repo root.
+- [x] 5. Verify the solution builds with zero errors: `dotnet build --configuration Release`.
 
 ## Phase 2: Book Model & Data Layer
 
