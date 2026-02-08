@@ -14,10 +14,10 @@ This task list tracks all work needed to implement the project described in SPEC
 
 ## Phase 2: Book Model & Data Layer
 
-- [ ] 6. Create `src/BookstoreApi/Models/Book.cs` with the `Book` entity containing properties `Id` (int, auto-generated PK), `Title` (string, Required, MaxLength 200), `Author` (string, Required, MaxLength 150), `ISBN` (string, Required, regex `^\d{13}$`), `Price` (decimal, Required, Range > 0), and `Genre` (string, Required, MaxLength 50). Use Data Annotations for all validation constraints.
-- [ ] 7. Create `src/BookstoreApi/Data/BookstoreDbContext.cs` with a `DbSet<Book> Books` property, inheriting from `DbContext`.
-- [ ] 8. Register `BookstoreDbContext` in `Program.cs` using `AddDbContext<BookstoreDbContext>(options => options.UseInMemoryDatabase("BookstoreDb"))`. Add the required NuGet package `Microsoft.EntityFrameworkCore.InMemory`.
-- [ ] 9. Verify the solution still builds cleanly.
+- [x] 6. Create `src/BookstoreApi/Models/Book.cs` with the `Book` entity containing properties `Id` (int, auto-generated PK), `Title` (string, Required, MaxLength 200), `Author` (string, Required, MaxLength 150), `ISBN` (string, Required, regex `^\d{13}$`), `Price` (decimal, Required, Range > 0), and `Genre` (string, Required, MaxLength 50). Use Data Annotations for all validation constraints.
+- [x] 7. Create `src/BookstoreApi/Data/BookstoreDbContext.cs` with a `DbSet<Book> Books` property, inheriting from `DbContext`.
+- [x] 8. Register `BookstoreDbContext` in `Program.cs` using `AddDbContext<BookstoreDbContext>(options => options.UseInMemoryDatabase("BookstoreDb"))`. Add the required NuGet package `Microsoft.EntityFrameworkCore.InMemory`.
+- [x] 9. Verify the solution still builds cleanly.
 
 ## Phase 3: API Controller & Endpoints
 
