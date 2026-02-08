@@ -21,12 +21,12 @@ This task list tracks all work needed to implement the project described in SPEC
 
 ## Phase 3: API Controller & Endpoints
 
-- [ ] 10. Create `src/BookstoreApi/Controllers/BooksController.cs` with `[ApiController]` and `[Route("api/[controller]")]` attributes. Inject `BookstoreDbContext` via constructor.
-- [ ] 11. Implement `GET /api/books` — returns `200 OK` with all books (empty array if none).
-- [ ] 12. Implement `GET /api/books/{id}` — returns `200 OK` with the book, or `404 Not Found` if not found.
-- [ ] 13. Implement `POST /api/books` — accepts a Book JSON body (without Id), returns `201 Created` with a `Location` header, or `400 Bad Request` if validation fails.
-- [ ] 14. Implement `PUT /api/books/{id}` — accepts a full replacement body, returns `204 No Content` on success, `404 Not Found` if the book doesn't exist, or `400 Bad Request` if validation fails. If an `Id` is provided in the body it must match the URL `id`.
-- [ ] 15. Implement `DELETE /api/books/{id}` — returns `204 No Content` on success, or `404 Not Found` if the book doesn't exist.
+- [x] 10. Create `src/BookstoreApi/Controllers/BooksController.cs` with `[ApiController]` and `[Route("api/[controller]")]` attributes. Inject `BookstoreDbContext` via constructor.
+- [x] 11. Implement `GET /api/books` — returns `200 OK` with all books (empty array if none).
+- [x] 12. Implement `GET /api/books/{id}` — returns `200 OK` with the book, or `404 Not Found` if not found.
+- [x] 13. Implement `POST /api/books` — accepts a Book JSON body (without Id), returns `201 Created` with a `Location` header, or `400 Bad Request` if validation fails.
+- [x] 14. Implement `PUT /api/books/{id}` — accepts a full replacement body, returns `204 No Content` on success, `404 Not Found` if the book doesn't exist, or `400 Bad Request` if validation fails. If an `Id` is provided in the body it must match the URL `id`.
+- [x] 15. Implement `DELETE /api/books/{id}` — returns `204 No Content` on success, or `404 Not Found` if the book doesn't exist.
 
 ## Phase 4: Program.cs Configuration
 
